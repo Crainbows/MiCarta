@@ -1,6 +1,6 @@
 import * as React from "react";
 
-export class Footer extends React.Component {
+class Footer extends React.Component {
     public render() {
         return (
             <footer className="footer">
@@ -13,3 +13,5 @@ export class Footer extends React.Component {
         );
     }
 }
+
+export default Footer;
